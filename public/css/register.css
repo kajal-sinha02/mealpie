@@ -1,0 +1,267 @@
+#navb{
+    top: 0;
+    /* background: linear-gradient(to right,#00a169, #79f128,#00a550); */
+    background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+  }
+  #lr
+  {
+    display: flex;
+    width: 700px;
+    justify-content: flex-end;
+    color: white;
+    
+  }
+  #navc a:hover{
+    color: #000000;
+    border-bottom: 0px solid #ffffff; /* You can adjust the color and style as needed */
+    display: inline-block;     
+  }
+  #navc{
+    font-weight: 500;
+    margin-left: 120px;
+    display: flex; 
+    width:600px;
+    color: white;
+    font-size: 18px;
+  }
+  #sign_btn{
+    
+    font-weight: 500;
+    
+}
+
+
+#signin_btn {
+
+    font-weight: 500;
+}
+
+  footer {
+    position: fixed;
+    background-color: #004d40; /* Dark green color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .login-form {
+    width: 360px;
+    height: 800px;
+  
+    
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+  
+    align-items: center;
+    border-radius: 5px;
+  
+  }
+  
+  #center-block
+  {
+    display: flex;
+    justify-content: center; /* Horizontally center the child element */
+    align-items: center; /* Vertically center the child element */
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    margin: 0px;
+  }
+  
+  
+  .form-group {
+  
+    margin-bottom: 20px;
+    width: 100%;
+    
+  }
+  
+  .form-group label {
+  
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    font-size: 14px;
+    color: rgb(162, 162, 162);
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .form-group input:focus + label{
+    transform: translateY(0);
+    font-size: 12px;
+  }
+  .form-group input:valid + label {
+    transform: translateY(0);
+    font-size: 12px;
+  }
+  
+  .form-group input:focus {
+    border-color: #000000;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    height: 20px;
+  }
+  
+  .navitem
+  {
+      padding:10px;
+      color:white;
+      text-decoration: none;
+      font-family: 200px;
+  }
+  
+
+  /* (to right, #00a13e, #79f128,#00a550 ); */
+
+  #login-box
+    {
+      position: relative;
+      
+      width: 350px;
+      height: 650px;
+      background-color:#508D69
+    }
+  #login-button {
+    width: 30%;
+    padding: 5px;
+    background-color: white;
+
+    margin-left: 100px;
+    border: none;
+    color: black;
+    font-size:15px;
+  
+    cursor: pointer;
+    
+  }
+  
+  #block{
+    
+    height:400px;
+    width:450px;
+    background: linear-gradient(to right, #00a13e, #79f128,#00a550);
+  }
+  
+  #block1{
+    
+    height:651px;
+    width:450px;
+   background-color: #9ADE7B;
+   
+    
+  }
+  
+  #center_block{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+  }
+    /* CSS for the centered div */
+    #centered-image {
+      margin-left: 300px;
+      margin-top: 15px ;
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+      background: linear-gradient(45deg, #330e0e, rgb(3, 98, 14));
+      position: absolute;
+      
+      
+    }
+  
+    #centered-image2 {
+      margin-left: 280px;
+      margin-top: 125px ;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      background: linear-gradient(45deg, #330e0e, rgb(3, 98, 14));
+      position: absolute;
+      
+      
+    }
+    
+    #centeredI-image {
+      width: 100px;
+      height: 100px;
+     
+      margin-left: 20px;
+      border-radius: 100px;
+      background: linear-gradient(45deg, #330e0e, rgb(3, 98, 14));
+      position:absolute;
+      
+    }
+    #centeredI-image2 {
+      width: 50px;
+      height: 50px;
+      margin-top: 100px;
+      margin-left: 80px;
+      border-radius: 100px;
+      background: linear-gradient(45deg, #330e0e, rgb(3, 98, 14));
+      position:absolute;
+      
+    }
+    #pr{
+      display: flex;
+    }
+  
+    #pr p{
+      margin-left: 70px;
+      font-size: 45px;
+      color: rgb(3, 98, 14);
+      font-family: 'Roboto', serif;
+    
+    }
+  
+    #block2{
+      display: flex;
+      
+    }
+  
+    #block2 p{
+      margin-left: 170px;
+      font-size: 25px;
+      color: white;
+      font-family: 'Dancing Script', cursive;
+      margin-top: 20px;
+    }
+  
+    #img-block
+    {
+        height: 200px;
+        width: 200px;
+        background-color: #00a13e;
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 255px;
+        border-radius: 100px;
+        background: url('/img/health (1).jpg');
+        background-repeat: no-repeat;
+    }
+
+    #login-button:hover
+  {
+    background-color: #d1d1d1;
+  }

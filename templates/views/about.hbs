@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/about.css">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: rgb(16, 170, 49);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+         header h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:#0e0d0d;
+        } 
+        header {
+    background: linear-gradient(45deg, #00b09b, #96c93d);
+        }
+        header {
+    border-bottom: 2px solid #fff;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+        
+
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        .iconDetails {
+         
+            /* max-width: 400px; */
+            height:300px;
+            width:500px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color:gray;
+            color: #fff;
+            text-align: center; 
+            justify-content: center;
+            padding: 10px 10;
+            gap: 15%;
+        } 
+        .above-footer-container{
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .above-footer-image{
+            width: 500px;
+            height: 200px;
+            margin-bottom: 10;
+        }
+        .above-footer-text{
+            font-size: 25px;
+            font-family: fantasy;
+            color:#0e0d0d
+        }
+
+        .text {
+            font-size:larger 100px;
+            text-align: left;
+            margin-top: 100px;
+        }
+        .highlighted-design {
+            background: linear-gradient(to right,#D0D7FC, #AAEAE0);/* Choose your desired highlight color */
+            height: 200px; /* Adjust the height as needed */
+            width: 20px; /* Adjust the width as needed */
+            border-radius: 8px;
+            margin-right: 20px; /* Add some margin to separate it from the content */
+        }
+        .team-members {
+           display: flex;
+           gap: 15%;
+           justify-content: center;
+           align-items: center; /* This centers the members vertically */
+           margin-bottom: 70px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .member {
+           text-align: center;
+           margin: 0 10px; 
+        }
+        .member img {
+        display: block;
+        margin: 0 auto;
+        }
+        .member h5 {
+        margin-top: 10px;
+        }
+        </style>
+</head>
+<body>
+     <div id="navb"> 
+   <div id="navc">
+    <a href="/home">Home</a>
+    <a href="/mission">Our Mission</a>
+    <a href="#">About us</a>
+    <a href="#">Our work</a>
+
+    </div>
+    {{!-- <div id="lr">
+    <button type="button" id="signin_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspLogin</button>&nbsp&nbsp&nbsp
+    <button type="button" id="sign_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspRegister as food providers</button>&nbsp&nbsp&nbsp
+    <button type="button" id="sign_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspRegister as food seeker</button>
+    </div> --}}
+ </div>
+    {{!-- <header>
+        <h1>About Us</h1>
+    </header> --}}
+    <div class="container">
+        <div class="highlighted-design"></div>
+        <div class="image-container">
+            <img src="/img/health.png" class="iconDetails" alt="Food Image" >
+        </div>
+        <div class="content">
+            <p>
+                Welcome to Mealpie ! 
+                We are dedicated to fostering a positive impact in the culinary landscape, connecting organizations and 
+                NGOs for a shared mission of sustainable food management. Our platform serves as a hub for collaboration,
+                innovation, and community engagement.Join us in creating a world where food is cherished, not wasted.
+                
+                Explore Mealpie , 
+                where our commitment lies in shaping a positive culinary landscape. We bring together organizations and
+                NGOs with a common goal of sustainable food management. Our platform functions as a central hub for collaboration,
+                innovation, and community engagement.Be part of our journey to create a world where every bite counts, and food is 
+                valued, not wasted.
+            </p>
+        </div>
+    </div>
+<div class="above-footer-container">
+        {{!-- <img src="/img/food magment system.png" class="above-footer-image" alt="Above Footer Image"> --}}
+        <br><br>
+        <p class="above-footer-text">"In sharing our blessings, we find true richness. Your contribution to food donation is a gift of compassion that brightens lives. Thank you for making a difference."
+        </p>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="meet" style="margin-top: 10px;"><center><h1>MEET OUR TEAM</h1></center></div><br><br>
+    <div class="team-members">
+    <div class="member">
+    <img src="img/kajal.jpeg" alt="Kajal Sinha"  style="border-radius: 100%; width: 150px; height: 150px;">
+    <h5>Kajal Sinha</h5>
+    <h5>Backened Developer</h5>
+    </div>
+    <div class="member">
+    <img src="/img/shr.jpg" alt="shruti" style="border-radius: 100%; width: 150px; height: 150px;">
+    <h5>Shruti Dharne</h5>
+    <h5>frontened Developer</h5>
+    </div>
+    <div class="member">
+    <img src="/img/madhuri.jpeg" alt="Madhuri" style="border-radius: 100%; width: 150px; height: 150px;" >
+    <h5>Madhuri</h5>
+    <h5>Backened Developer</h5>
+    </div>
+    <div class="member">
+    <img src="/img/jhansi.jpg" alt="jhansi" style="border-radius: 100%; width: 150px; height: 150px;" >
+    <h5>jhansi</h5>
+    <h5>Content writer</h5>
+    </div>
+    </div>
+    <!-- <footer>
+    <p class="text">Get Involved</p>
+    <p class="text">Donate</p>
+    <p class="text">Request For Food</p>
+    <p class="text">Patner With Us</p>
+    </footer> -->
+    
+</body>
+</html>
+

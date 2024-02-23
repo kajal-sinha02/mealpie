@@ -1,0 +1,367 @@
+body{
+    margin: 0px;
+
+}
+#head{
+    width: 100%;
+    height:150px;
+    background-color: #0d1013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+}
+.row1 {
+    display: flex;   
+    
+    font-family: "Roboto";
+    height: fit-content;
+    margin:0px 200px 0px 200px;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+
+    
+}
+
+.row1{
+    display: flex;   
+    
+    font-family: "Roboto";
+    height: fit-content;
+    margin:0px 200px 0px 200px;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+
+    
+}
+.row1 a{
+    padding: 50px;
+}
+.row1 a:hover {
+    color: rgb(255, 255, 255); /* Text color on hover */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    
+  }
+
+#stays{
+    margin-left: 100px;
+}
+
+
+
+#sign_btn{
+    
+    font-weight: 500;
+    
+}
+
+
+#signin_btn {
+
+    font-weight: 500;
+   
+   
+}
+
+#signin_btn:hover{
+    
+}
+
+#signin_btn a{
+    
+    /* text-shadow: none; */
+    
+}
+
+
+
+footer {
+
+    background-color: #004d40; /* Dark green color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+
+@media (max-width: 850px) {
+    .row1 {
+      display: flex;
+ /* Change to column layout on smaller screens */
+      /* Additional styles for smaller screens */
+      margin:0px 0px 0px 0px;
+    }
+  }
+
+.image-container img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+#Td{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+#para{
+    height: 350px;
+    padding: 50px;
+}
+
+#para h{
+    font-size: 50px;
+    color: white;
+}
+
+#para p{
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+
+#Td p{   
+
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    background: linear-gradient(to right, #a6a2bd, #ffffff); /* Blue to purple gradient */
+    -webkit-background-clip: text; /* Apply the gradient to the text content */
+    color: transparent; 
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; /* Create an outline effect using multiple shadows */
+    font-family: "Alkatra";
+    /* animation: gradientAnimation 10s infinite, colorAnimation 10s infinite;  */
+    background-size: 200% 100%; 
+     
+}
+
+.image2container{
+    height: 350px;
+    width: 650px;
+
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+    
+
+.image2container:hover{
+    opacity: 0.5;
+    transform: scale(1.05); 
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    opacity: 0;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover{
+    .text{
+        opacity: 1;
+    }
+}
+  
+#optionsearch{
+    
+}
+#dept{
+
+}
+#arr{
+
+}
+.img1{
+     /* You can adjust the value between 0 (completely transparent) and 1 (completely opaque) */
+
+
+}
+#stays{
+    
+}
+#hotel{
+    
+}
+#cr{
+   
+}
+#ac{
+    
+}
+#at{
+    
+}
+.column {
+    display: flex; /* Use flexbox to create a flexible container */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+#book{
+    /* font-family: 'Sevillana', cursive; */
+    /* font-weight: bold; */
+     /* font-family: 'EB Garamond', serif;  */
+     font-family: "Permanent Marker";
+    /*text-shadow: 0 0 10px rgba(255, 255, 255, 1); */
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Blue to purple gradient */
+    -webkit-background-clip: text; /* Apply the gradient to the text content */
+    color: transparent; 
+    /* animation: gradientAnimation 3s infinite, colorAnimation 3s infinite; */
+    background-size: 200% 100%; 
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0; 
+        
+    }
+    100% {
+        background-position: -100% 0;
+         
+    }
+} 
+
+@keyframes colorAnimation {
+    0% {
+        color: #255c32; 
+        
+        
+    }
+    50% {
+        color: #000000; 
+        
+    }
+    100% {
+        color:#145625 ; 
+        
+    } 
+} 
+
+
+#label{
+    width: 100%;
+    height:60px;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+}
+
+@keyframes flyRight {
+    0% {
+        left: -100px; /* Initial position outside the left edge */
+    }
+    100% {
+        left: calc(100% + 100px); /* Final position outside the right edge */
+    }
+}
+
+.airplane {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px; /* Adjust the size of the airplane as needed */
+    height: 50px;
+    background-color: transparent;
+    animation: flyRight 5s linear infinite; /* Adjust the duration as needed */
+}
+
+#cardout{
+    display: flex;
+    background-color: #242428;
+    
+    margin: 80px;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+#cardout:hover{
+    transform: scale(1.01);
+    background-color: #1e1e1e;
+}
+
+.flip-container {
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+.flip-container img {
+    border: transparent;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    transition: transform 0.5s ease;
+}
+
+
+.flip-container img:hover{
+    
+    transform: rotateY(180deg);
+    width: 500px;
+    height: 350px;
+}
+
+.flip-container:before {
+    content: "";
+    position: absolute;   
+    left: 0;   
+    right: 0;
+    bottom: 0;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background: url('') center/cover no-repeat;
+    transform: rotateY(180deg);
+    height: 200px;
+    width: 400px;
+    transition: transform 0.5s ease;
+    backface-visibility: hidden;
+    pointer-events: none; /* Ensures the hover effect triggers on the image, not the pseudo-element */
+}
+
+.flip-container:hover:before {
+    transform: rotateY(360deg);
+}
+
+
+/* #card img{
+    border-radius: 80px;
+    padding: 50px;
+    height:350px;
+    width: 500px;
+} */
+
+.line{
+    margin: 10px;
+
+    height: 1px;
+    width: 500px;
+    background-color: #000000;
+}
+
+
+

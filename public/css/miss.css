@@ -1,0 +1,90 @@
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Style for slides */
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides img{
+    height: 400px;
+    width: 1200px;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  #navb{
+    /* background: linear-gradient(to right,#00a169, #79f128,#00a550); */
+    background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  #lr
+  {
+    display: flex;
+    width: 700px;
+    justify-content: flex-end;
+    color: white;
+    
+  }
+  #navc a:hover{
+    color: #000000;
+    border-bottom: 0px solid #ffffff; /* You can adjust the color and style as needed */
+    display: inline-block; 
+    
+  }
+
+  #navc a
+  {
+      padding:10px;
+      color:white;
+      text-decoration: none;
+      font-family: 200px;
+      font-weight: 550;
+      font-size: 17.5px;
+      margin-right: 18px;
+  }
+  
+  #navc {
+    font-weight: 500;
+    margin-left: 5px;
+    display: flex; 
+    width:600px;
+    color: white;
+    font-size: 18px;
+  }
+  #sign_btn{
+    
+    font-weight: 500;
+    
+}
+
+
+#signin_btn {
+
+    font-weight: 500;
+   
+   
+}
+  #navc{
+    font-weight: 500;
+    margin-left: 150px;
+    display: flex; 
+    width:600px;
+    color: white;
+    font-size: 18px;
+  }
+  

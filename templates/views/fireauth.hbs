@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/fireauth.css">
+    <title>Welcome to TChau</title>
+  </head>
+  <body>
+     <div id="navb"> 
+   <div id="navc">
+    <a href="/home">Home</a>
+    <a href="/mission">Our Mission</a>
+    <a href="#">About us</a>
+    <a href="#">Our work</a>
+
+    </div>
+    {{!-- <div id="lr">
+    <button type="button" id="signin_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspLogin</button>&nbsp&nbsp&nbsp
+    <button type="button" id="sign_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspRegister as food providers</button>&nbsp&nbsp&nbsp
+    <button type="button" id="sign_btn" onclick="" class="btn btn-outline-light"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspRegister as food seeker</button>
+    </div> --}}
+ </div>
+
+{{!-- <button id ="sign_btn" onclick=""><i class="fas fa-user"></i>&nbsp;Register</button>
+                                <button id ="signin_btn" onclick="">Login</button></div>  --}}
+    <!-- <img class="wave" src="images/wave.png"> -->
+    <div class="container">
+      <div class="img">
+        <img src="/img/images.png">
+      </div>
+      <div class="login-content">
+        <form>
+          <img src="/img/health.png">
+          <p class="title">Welcome</p>
+                 <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div class="div">
+                        <input type="email" id ="email" class="input" placeholder="Email">
+                    </div>
+                 </div>
+                 <div class="input-div pass">
+                    <div class="i"> 
+                       <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                       <input type="password" id="password" class="input" placeholder="Password">
+                   </div>
+                </div>
+                
+                <div style="display: flex;flex-direction: column;justify-content: center; width: 1000px; ">
+                        <button id="signup_btn" class="btn">Sign Up</button>
+                        <button id="login_btn"class="btn">Donate Now</button>
+              </div>
+              </form>
+          </div>
+      </div>
+  </body>
+   <!-- <script
+    src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js"
+    type="module"
+  ></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js"
+    type="module"
+  ></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js"
+    type="module"
+  ></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js"
+    type="module"
+  ></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script/fireauth.js" type="module"></script>
+</html>

@@ -1,0 +1,471 @@
+#box1
+{
+  
+   height:200px;  
+   width:400px;
+   background:linear-gradient(to right, #e7e7e7,white );
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   margin-left: 100px;
+}
+
+#box2
+{
+  margin-left: 50px;
+  height:200px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width:400px;
+  background:linear-gradient(to right, #e7e7e7,white );
+}
+
+
+#box3
+{
+  margin-left: 50px;
+  height:200px;  
+  width:400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background:linear-gradient(to right, #e7e7e7,white );
+}
+
+#box1:hover
+{
+  box-shadow: 0 4px 8px rgba(0, 247, 255, 0.116);
+  transform: scale(1.03);
+  background:linear-gradient(to right,white, #e7e7e7);
+}
+
+#box2:hover
+{
+  box-shadow: 0 4px 8px rgba(0, 247, 255, 0.116);
+  transform: scale(1.03);
+  background:linear-gradient(to right,white, #e7e7e7);
+}
+
+#box3:hover
+{
+  box-shadow: 0 4px 8px rgba(0, 247, 255, 0.116);
+  transform: scale(1.03);
+  background:linear-gradient(to right,white, #e7e7e7 );
+}
+.navitem
+{
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    font-family: 200px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    align-items: center;
+}
+
+#navb{
+  /* background: linear-gradient(to right, #08441e,purple, #08441e,#05bd7d, #08441e,#000101, #08441e,#3da82d); */
+  /* background: linear-gradient(to right, #00ff5e,purple, #08441e,#05bd7d, #d333ff,#08441e, #137938,#00c917);  */
+  background: linear-gradient(to right, #08441e,rgb(64, 116, 57), #08441e,#206a50, #08441e,rgb(64, 116, 57), #08441e,#3da82d);
+  filter: grayscale(0.2);
+  /* height: 70px; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top:0;
+  align-items: center;
+}
+
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Style for slides */
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+  height: 400px;
+  width: 1200px;
+}
+
+/* Style for navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#block01
+{
+  /* display: flex;background: linear-gradient(to right, #29bc5f,rgb(102, 182, 91), #10833a,#206a50, #0f8139,rgb(64, 116, 57), #12873d,#3da82d); */
+  background-color: #aff98c;
+  background: linear-gradient(to right,#D0D7FC, #AAEAE0);
+  box-shadow: inset 0 0 100px 0 #ffffff;
+  height:620px;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+#lr
+{
+  display: flex;
+  width: 700px;
+  justify-content: flex-end;
+  color: white;
+  
+}
+
+#navc{
+  margin-left: 120px;
+  display: flex; 
+  width:600px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+#navc a{
+    margin-left: 40px;
+}
+
+#navc a:hover{
+  color: #000000;
+    border-bottom: 0px solid #ffffff; /* You can adjust the color and style as needed */
+    display: inline-block;     
+}
+
+#head p{
+    font-size: 150px;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #00a13e, #79f128,#00a550 );
+    -webkit-background-clip: text; /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+#head p:hover{
+    text-shadow: 0 0 10px rgba(174, 255, 174, 0.8);
+}
+#connect {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    
+}
+#connect1 {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    
+}
+
+
+#rescue {
+    font-size: 50px;
+    font-family: 'Nunito';
+    font-weight:100;
+    background-image: linear-gradient(to right, #246b40, #68d122,#005f2e );
+    -webkit-background-clip: text; /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+}
+#connect p{
+    font-size: 45px;
+    font-family:"Space Grotesk";
+    font-weight: bold;
+    /* background-image: linear-gradient(to right, #246b40, #68d122,#005f2e ); */
+    /* background-image: linear-gradient(to right, #246b40, #68d122,#005f2e );  */
+     /* background-image: linear-gradient(to right, #000000, #68d122,#000000, #68d122 );  */
+     background-image: linear-gradient(to right, #000000, #3d7c12,#000000, #428316 ); 
+    -webkit-background-clip: text; /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+#connect1 p{
+    font-size: 45px;
+    font-family:"Space Grotesk";
+    font-weight: bold;
+    /* background-image: linear-gradient(to right, #5a09bd, #9123af,#410175 ); */
+    background-image: linear-gradient(to right, #5a09bd, #9123af,#410175 );
+    -webkit-background-clip: text; /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+/* #combined 
+{   
+     
+      height: 520px;
+      width: 650px;
+      margin-right: 1000px;
+      top:0;
+      right: 0;
+      left: 790px;
+      max-height: 100%;
+      position: absolute;
+} */
+
+#combined 
+{   
+     display: none;
+      height: 300px;
+      width:400px;
+      margin-top: 180px;
+      margin-left: 900px;
+      top:0;
+      position: absolute;
+}
+#img1{
+    display: flex;
+    justify-content: center;
+}
+#img1 img
+{
+    height: 130px;
+    object-fit: contain;
+}
+
+#miss p{
+    height:30px;
+    font-size: 23px;
+    font-weight:bold;
+    
+    background-image: linear-gradient(to right, #ffffff,rgb(255, 255, 255));
+    -webkit-background-clip: text;
+     /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent; 
+    /* background-image: linear-gradient(to right, #6600ff, #d436ff,#410175 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+}
+
+
+#donate1{
+    display: flex;
+    justify-content: center;
+}
+#donate p{
+    display: flex;
+    justify-content: center;
+    font-family: "Space Grotesk";
+}
+
+#donate1 p{
+    
+    background-image: linear-gradient(to right, #ffbf00e7, #ffe100,#ffb700e7);
+    -webkit-background-clip: text; /* WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+
+#donate2 {
+  display: flex;
+  justify-content: center;
+}
+
+#donate2 p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.8;
+    padding:0px 100px 0px 100px;
+      margin:50px 50px 50px 50px;
+}
+
+
+.collaboration-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .collaboration-container {
+      background-color: #ffffff;
+      color: #fff;
+      text-align: center;
+    
+      padding:0px 100px 0px 100px;
+      margin:50px 50px 50px 50px;
+    }
+
+    .icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 20px;
+      
+      color: #000000;
+    }
+
+    .description {
+        
+        font-size: 20px;
+        font-family: "Nunito";
+        font-weight: 500;
+    }
+/* @media screen and (max-width: 901px) {
+    #connect p  
+    {
+        font-size: 50px;
+    }
+    #head p
+    {
+        font-size: 100px;
+    }
+  }
+  @media screen and (max-width: 523px){
+    #connect p  
+    {
+        font-size: 30px;
+    }
+  } */
+
+  @media screen and (max-width: 750px) {
+    #combined img 
+    {
+        display: none;
+    }
+    
+  }
+
+  @media screen and (max-width: 750px) {
+    #connect , #connect1
+    {
+        display: none;
+    }
+    
+  }
+
+  .contact-card:hover{
+    transform: scale(1.06);
+    opacity: 0.9;
+  }
+  .contact-card {
+    max-width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(to right, #08441e,#276b1c,rgb(64, 116, 57));
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-card h2 {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-bottom: 10px;
+    color: white
+  }
+
+  .contact-card p {
+    margin-bottom: 20px;
+  }
+
+  .contact-card a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+/* Container styles */
+.flip-container {
+    perspective: 1000px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Div that will be flipped */
+  .flip-card {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+
+  /* Front and back faces of the card */
+  .flip-card .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  /* Front face */
+ 
+  .card-face .card-back
+{
+  height: 0px;
+}
+  /* Back face */
+  .flip-card .card-back {
+    /* background-color: #60ffad; */
+    background-color: white;
+    color: #fff;
+    transform: rotateY(180deg);
+    position: absolute;
+  }
+
+  /* Flip animation on hover */
+  .flip-container:hover .flip-card {
+    transform: rotateY(180deg);
+    
+  }
+
+  
+  footer {
+    background-color: #004d40; /* Dark green color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #delayedText {
+    display: none; /* Hide the text initially */
+  }
+
+  #imc {
+    display: none; /* Hide the image container initially */
+}
